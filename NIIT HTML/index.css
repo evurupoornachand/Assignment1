@@ -1,0 +1,22 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+}
+
+
+h1 {
+    color: rgb(0, 0, 255);
+    background-color: rgb(148, 227, 148);
+    margin-top: 20px;
+}
+
+
+#para1 {
+    color: rgb(140, 77, 77);
+    text-decoration: underline;
+}
+
+.para-class {
+    background-color: rgb(77, 170, 170);
+}

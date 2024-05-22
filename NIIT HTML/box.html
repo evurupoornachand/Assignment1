@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX BOX MODEL</title>
+    
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    #container{
+        border: 1px solid red;
+        padding: 5px;
+        margin: 10px;
+        display: inline-block;
+        
+    }
+    .child{
+        border: 1px solid greenyellow;
+        display: inline-block;
+        margin: auto;
+        width: 200px;
+        
+    }
+   
+    img{
+        width: 100%;
+    }
+    #specialchild{
+        background-color: aqua;
+    }
+</style>
+<body>
+    <div id="container">
+        <div  class="child" >
+            <img src="dad.jpeg">
+            <h1>Father</h1>
+            <p>Ramanjaneyulu</p>
+        </div>
+            
+            <div  class="child" >
+            <img src="mom.jpeg">
+            <h1>Mother</h1>
+            <p>Saritha</p>
+        </div>
+           
+            <div  class="child" >
+            <img src="my pic.jpeg">
+            <h1>Me</h1>
+            <p>Nani</p>
+        </div>
+    </div>
+</body>
+</html>
